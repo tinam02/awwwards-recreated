@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(40, 35, 44);
+  height: 200vh;
+  margin: auto;
+}
+section:first-of-type {
+  color: beige;
+  background-color: rgb(32, 28, 36);
+  height: 30vh;
+  text-align: center;
+}
+h1 {
+  font-size: 10rem;
+  margin-bottom: 2rem;
+}
+.image-section {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  height: 70vh;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* scrolling */
+.images-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-right: 2rem;
+  position: absolute;
+}
+
+.image-container {
+  display: flex;
+  max-width: 300px;
+  max-height: 440px;
+  overflow: hidden;
+}
+
+.image-container img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
