@@ -1,0 +1,49 @@
+body {
+  background: rgb(84, 17, 208);
+}
+h1 {
+  background: url(https://images7.alphacoders.com/492/thumb-1920-492167.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  text-shadow: 5px 3px rgb(218, 194, 14);
+  letter-spacing: 6px;
+  text-align: center;
+  font-size: 17rem;
+}
+@font-face {
+  font-family: "lynojean";
+  src: url("./lyno/lyno-jean_2-webfont.woff2") format("woff2"),
+    url("./lyno/lyno-jean_2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lynostan";
+  src: url("./lyno/lyno-stan_2-webfont.woff2") format("woff2"),
+    url("./lyno/lyno-stan_2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lynoulys";
+  src: url("./lyno/lyno-ulys_2-webfont.woff2") format("woff2"),
+    url("./lyno/lyno-ulys_2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lynowalt";
+  src: url("./lyno/lyno-walt_2-webfont.woff2") format("woff2"),
+    url("./lyno/lyno-walt_2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+::selection {
+  background-color: rgb(213, 0, 0);
+}
