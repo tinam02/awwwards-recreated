@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  box-sizing: border-box;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.header li {
+  margin-left: 5%;
+}
+.header li:first-of-type {
+  margin-left: 0;
+}
+.header li.active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 44rem) {
+  .header {
+    padding: 20px 5vw;
+    justify-content: space-between;
+    font-size: 1.4em;
+  }
+  .hide-xs {
+    display: none;
+  }
+}
