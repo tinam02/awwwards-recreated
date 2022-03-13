@@ -26,6 +26,7 @@ const Home = () => {
   };
   return (
     <>
+    
       <Header />
       <div className="main-container" id="main-container">
         <div className="title-container">

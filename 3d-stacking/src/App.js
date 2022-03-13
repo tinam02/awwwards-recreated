@@ -1,10 +1,11 @@
-
-import Home from './containers/Home';
-import './index.css';
+import Home from "./containers/Home";
+import DarkMode from "./components/DarkMode";
+import "./index.css";
 function App() {
   return (
     <div className="App">
-<Home/>
+      <DarkMode />
+      <Home />
     </div>
   );
 }
